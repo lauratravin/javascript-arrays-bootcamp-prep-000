@@ -19,7 +19,7 @@ function addElementToBeginningOfArray(arrayOfThings, value) {
 
 function destructivelyAddElementToBeginningOfArray(arrayOfThings, value){
       arrayOfThings.unshift(value);
-      return arrayOfThings;
+      return arrayOfThings
  }
 
 //These functions also take two arguments, an array and an element to add to the
