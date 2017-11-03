@@ -1,8 +1,8 @@
 
 
 //ex1
-var chocolateBars = new Array("snickers", "hundred grand", "kitkat", "skittles");
-//var chocolateBars = ["snickers", "hundred grand", "kitkat", "skittles"];
+//var chocolateBars = new Array("snickers", "hundred grand", "kitkat", "skittles");
+var chocolateBars = ["snickers", "hundred grand", "kitkat", "skittles"];
 
 //ex2
 //Both functions take two parameters, an array and an element to add to the beginning of the array,
