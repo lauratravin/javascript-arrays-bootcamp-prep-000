@@ -17,7 +17,10 @@ function addElementToBeginningOfArray(arrayOfThings, value) {
       return [value, ...arrayOfThings];
 }
 
-function destructivelyAddElementToBeginningOfArray(){}
+function destructivelyAddElementToBeginningOfArray(arrayOfThings, value){
+      arrayOfThings.unshift(value);
+      return arrayOfThings;
+ }
 
 //These functions also take two arguments, an array and an element to add to the
 // end of the array. addElementToEndOfArray should not alter the original array;
