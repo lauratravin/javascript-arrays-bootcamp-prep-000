@@ -26,7 +26,7 @@ function destructivelyAddElementToBeginningOfArray(arrayOfThings, value){
 // end of the array. addElementToEndOfArray should not alter the original array;
 // destructivelyAddElementToEndOfArray should alter the original array.
  function addElementToEndOfArray(arrayOfThings, value) {
-//       return [arrayOfThings...,value];
+      return [...arrayOfThings,value];
  }
 
 function destructivelyAddElementToEndOfArray(){}
