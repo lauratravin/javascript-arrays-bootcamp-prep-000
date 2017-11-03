@@ -29,7 +29,7 @@ function destructivelyAddElementToBeginningOfArray(arrayOfThings, value){
       return [...arrayOfThings,value];
  }
 
-function destructivelyAddElementToEndOfArray(arrayOfThings, value)){
+function destructivelyAddElementToEndOfArray(arrayOfThings, value){
       arrayOfThings.push(value);
       return arrayOfThings
 }
