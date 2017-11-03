@@ -13,8 +13,9 @@ var chocolateBars = ["snickers", "hundred grand", "kitkat", "skittles"];
 
 
 
-function addElementToBeginningOfArray(test,valor) {
-       test.push = [valor];
+function addElementToBeginningOfArray(arrayOfThings,value) {
+       arrayOfThings.push = [value];
+       return arrayOfThings
 
 }
 
