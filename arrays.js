@@ -63,5 +63,6 @@ function destructivelyRemoveElementFromEndOfArray(arrayOfThings){
 //that takes an array as its only argument and removes the last element.
 //Your function should return the array without the last element, and it should not mutate the original array.
 function removeElementFromEndOfArray(arrayOfThings){
+       return arrayOfThings.slice(0,arrayOfThings.length-1)
 
 }
