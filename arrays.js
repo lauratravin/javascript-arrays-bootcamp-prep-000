@@ -53,3 +53,9 @@ function destructivelyRemoveElementFromBeginningOfArray(arrayOfThings){
  function removeElementFromBeginningOfArray(arrayOfThings){
      return arrayOfThings.slice(1);
  }
+
+//hat takes an array as its only argument and removes the last element.
+//Your function should return the entire array, and it should mutate the array.
+function destructivelyRemoveElementFromEndOfArray(arrayOfThings){
+     return arrayOfThings.pop();
+}
