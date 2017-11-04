@@ -43,6 +43,6 @@ function accessElementInArray(arrayOfThings, value){
 //that takes an array as its only argument and removes the first element.
 //Your function should then return the entire array, and it should not mutate the underlying array.
  function removeElementFromBeginningOfArray(arrayOfThings){
-     arrayOfThings.splice(1);
+     arrayOfThings.slice(1);
      return arrayOfThings
  }
