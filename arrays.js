@@ -40,8 +40,16 @@ function destructivelyAddElementToEndOfArray(arrayOfThings, value){
 function accessElementInArray(arrayOfThings, value){
     return arrayOfThings[value]
 }
+
+//that takes an array as its only argument and removes the first element.
+//Your function should then return the entire array, and it should mutate the array.
+function destructivelyRemoveElementFromBeginningOfArray(arrayOfThings){
+   arrayOfThings.shift();
+   return arrayOfThings
+
+}
 //that takes an array as its only argument and removes the first element.
 //Your function should then return the entire array, and it should not mutate the underlying array.
  function removeElementFromBeginningOfArray(arrayOfThings){
-     return arrayOfThings.slice(1); 
+     return arrayOfThings.slice(1);
  }
