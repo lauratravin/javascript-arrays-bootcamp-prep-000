@@ -37,4 +37,6 @@ function destructivelyAddElementToEndOfArray(arrayOfThings, value){
 
 
 //The function should accept an array and an index and return the element at that index.
-function accessElementInArray(){}
+function accessElementInArray(arrayOfThings, value){
+    return arrayOfThings[value]
+}
