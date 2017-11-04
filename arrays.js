@@ -45,5 +45,5 @@ function accessElementInArray(arrayOfThings, value){
 // function removeElementFromBeginningOfArray(arrayOfThings, value){
 //     arrayOfThings.splice(0);
 //     return arrayOfThings
-// 
+//
 // }
